@@ -1,2 +1,2 @@
 # electronics
-These are my electronics projects 
+The design development using ltspice and KiCad
