@@ -694,4 +694,672 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SI4816BDY"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 25.908 52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI4816BDY"
+			(at 44.45 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "SI4816BDY"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SI4816BDY_0_1"
+			(polyline
+				(pts
+					(xy 25.4 40.64) (xy 30.48 40.64) (xy 30.48 43.18)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 30.48) (xy 30.48 30.48) (xy 30.48 33.02)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 43.18) (xy 30.988 42.672)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 41.402) (xy 30.988 40.64)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 40.894) (xy 33.02 40.894) (xy 33.02 32.766) (xy 30.988 32.766)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 33.02) (xy 30.988 32.512)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 32.131) (xy 30.988 31.496)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 31.75) (xy 30.988 31.75)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 31.115) (xy 30.988 30.48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 50.8) (xy 33.02 42.926) (xy 30.988 42.926)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 36.83) (xy 33.02 36.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 36.83) (xy 33.02 36.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 30.734) (xy 33.02 31.75) (xy 30.988 31.75)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 33.02 30.734)
+				(radius 0.0001)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 27.94) (xy 35.56 27.94) (xy 35.56 34.798) (xy 33.02 34.798)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 17.78) (xy 33.02 30.734) (xy 30.988 30.734)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45.72 17.78) (xy 45.72 25.4) (xy 33.02 25.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SI4816BDY_1_1"
+			(rectangle
+				(start 25.4 50.546)
+				(end 48.26 20.066)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 252 220 78 1)
+				)
+			)
+			(rectangle
+				(start 26.416 -0.254)
+				(end 26.416 -0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 252 1)
+				)
+			)
+			(rectangle
+				(start 26.924 4.064)
+				(end 26.924 4.064)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 252 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 42.164) (xy 30.988 41.656)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 41.91) (xy 33.02 41.91) (xy 33.02 40.894)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 41.91) (xy 31.242 42.164) (xy 31.242 41.656) (xy 30.988 41.91)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 252 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.988 31.75) (xy 31.242 32.004) (xy 31.242 31.496) (xy 30.988 31.75)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 252 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 39.624) (xy 35.56 39.624) (xy 35.56 45.72) (xy 33.02 45.72)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.798 43.434) (xy 36.322 43.434)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.798 31.75) (xy 36.322 31.75)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35.56 43.434) (xy 34.798 42.418) (xy 36.322 42.418) (xy 35.56 43.434)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35.56 31.75) (xy 34.798 30.734) (xy 36.322 30.734) (xy 35.56 31.75)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.958 31.75) (xy 44.958 32.258)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.958 31.75) (xy 46.482 31.75)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45.72 31.75) (xy 44.958 30.734) (xy 46.482 30.734) (xy 45.72 31.75)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45.72 25.4) (xy 45.72 36.83)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 46.482 31.75) (xy 46.482 31.242)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 48.26 36.83) (xy 33.02 36.83)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 252 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 22.86 40.64 0)
+				(length 2.54)
+				(name "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 17.526 90)
+				(length 2.54)
+				(name "A/S2_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 17.526 90)
+				(length 2.54)
+				(name "A/S2_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 30.48 0)
+				(length 2.54)
+				(name "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 53.34 270)
+				(length 2.54)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 50.8 36.83 180)
+				(length 2.54)
+				(name "D2/S1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 50.8 40.64 180)
+				(length 2.54)
+				(name "D2/S1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 50.8 43.18 180)
+				(length 2.54)
+				(name "D2/S1_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
