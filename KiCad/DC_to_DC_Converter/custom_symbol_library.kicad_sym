@@ -2,6 +2,131 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "0.01_µF_Ceramic_Capacitor"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C?"
+			(at -0.508 -8.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at -0.508 -14.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9038/AGC-Series_.pdf"
+			(at 1.27 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.01 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at -0.254 -4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "0.01_µF_Ceramic_Capacitor_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -12.954) (xy -0.508 -9.906)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -12.954) (xy 0.508 -9.906)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0.01_µF_Ceramic_Capacitor_1_1"
+			(pin passive line
+				(at -2.54 -11.43 0)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -11.43 180)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AEC-Q200_RES0805_1%_0_OHM"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2008,7 +2133,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RES_200K_OHM_"
+	(symbol "RES_200K_OHM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2024,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Value" "200k ohms"
+		(property "Value" "200k"
 			(at 0.254 -10.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,10 +2192,10 @@
 				)
 			)
 		)
-		(symbol "RES_200K_OHM__0_1"
+		(symbol "RES_200K_OHM_0_1"
 			(polyline
 				(pts
-					(xy -2.667 -7.239) (xy -2.921 -7.239)
+					(xy -2.286 -7.62) (xy -2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2082,7 +2207,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -7.239) (xy -2.286 -6.223) (xy -1.905 -7.239) (xy -1.524 -8.255) (xy -1.143 -7.239)
+					(xy -2.286 -7.62) (xy -1.905 -6.604) (xy -1.524 -7.62) (xy -1.143 -8.636) (xy -0.762 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2094,7 +2219,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.143 -7.239) (xy -0.762 -6.223) (xy -0.381 -7.239) (xy 0 -8.255) (xy 0.381 -7.239)
+					(xy -0.762 -7.62) (xy -0.381 -6.604) (xy 0 -7.62) (xy 0.381 -8.636) (xy 0.762 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2106,7 +2231,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.381 -7.239) (xy 0.762 -6.223) (xy 1.143 -7.239) (xy 1.524 -8.255) (xy 1.905 -7.239)
+					(xy 0.762 -7.62) (xy 1.143 -6.604) (xy 1.524 -7.62) (xy 1.905 -8.636) (xy 2.286 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2118,7 +2243,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -7.239) (xy 2.159 -7.239)
+					(xy 2.286 -7.62) (xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2129,9 +2254,9 @@
 				)
 			)
 		)
-		(symbol "RES_200K_OHM__1_1"
+		(symbol "RES_200K_OHM_1_1"
 			(pin passive line
-				(at -4.191 -7.239 0)
+				(at -3.81 -7.62 0)
 				(length 1.27)
 				(name ""
 					(effects
@@ -2149,7 +2274,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.429 -7.239 180)
+				(at 3.81 -7.62 180)
 				(length 1.27)
 				(name ""
 					(effects
